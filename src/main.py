@@ -1,7 +1,7 @@
 from Crypto.Util.number import *
 import random, os
 from gmpy2 import *
-flag = os.getenv('DASFLAG')
+flag = os.getenv('FLAG')
 
 p = random.getrandbits(1024)
 
